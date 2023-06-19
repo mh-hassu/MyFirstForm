@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My First Form</h1>
+    <form action="https:www.example.com/login.php" method="get">
+        <fieldset> 
+            
+ <legend>Personal Details</legend>
+ <div class="center">
+ <p> 
+ <input type="text" name="UserName" size="20" maxlength="14" class="UserName" placeholder="UserName" required>
+ </p>
+ 
+<p>
+<input type="password" name="password" size="20" maxlength="12" class="password" placeholder="Password">
+</p>
+<p>
+ <input type="date" name="dob" class="dob" placeholder="Date of Birth">
+</p>
+<p>
+<textarea name="comment" cols="18" rows="5" class="comment" maxlength="90" placeholder="Enter your Comment"></textarea>
+</p>
+<p>
+    <input type=" email" name="email" class="email" placeholder="Email" >
+</p>
+<p> 
+    <input type="url" name="profile" class="website" placeholder="Website">
+</p>
+<p> <b>Gender:</b>
+ <label>
+    <input type="radio" name="gender"> <b>Male</b></label>
+ <label>
+    <input type="radio" name="gender"><b> Female </b></label>
+</p>
+<p class="Nationality"><b>Nationality: </b>
+    <select name="countries">
+    <option value="pakistan" >PAKISTAN</option>
+<option value="india">INDIA</option>
+<option value="iran">IRAN</option>
+<option value="usa">USA</option>
+<option value="iraq">IRAQ</option>
+<option value="china">CHINA</option>
+<option value="turkey">TURKEY</option>
+<option value="germany">GERMANY</option>
+</select>
+</p>
+</div>
+<p>
+    <input class="button" type="submit" value="Login">
+</p>
+
+
+  </fieldset>
+ </form>
+
+</body>
+</html>
